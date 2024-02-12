@@ -57,6 +57,7 @@ public class RomanCalculator extends Calculator{
         frame.setSize(420, 550);
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setLayout(null);
+        frame.setLocationRelativeTo(null);
     }
 
     @Override

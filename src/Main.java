@@ -1,10 +1,10 @@
 public class Main {
     public static void main(String[] args) {
-        ModernCal m = new ModernCal();
-        m.init();
+        ModernCal modern = new ModernCal();
+        modern.init();
 
-        RomanCalculator r = new RomanCalculator();
-        r.init();
+        RomanCalculator roman = new RomanCalculator();
+        roman.init();
 
 
     }
